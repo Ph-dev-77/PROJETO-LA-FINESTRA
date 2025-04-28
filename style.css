@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+    font-size:22px;
+    
+}
+body{
+    background-color: #feb808;
+    font-family: 'poppins', sans-serif;
+
+}
+.interface{
+    max-width:1280px ;
+    margin:0 auto ;
+}
+.flex{
+    display: flex;
+}
+.interface > h2.titulo{
+    color: #823f0f;
+    font-size: 40px;
+    text-align: center;
+}
+h2 {
+    color: #7b3604;
+    text-align: center;
+    font-size: 22px;
+}
+p{
+    color: #7b3604;
+    text-align: center;
+}
+
+
+
+/* ESTILO DO CABEÇALHO */
+header{
+    padding: 40PX 4%;
+
+}
+header> .interface{
+   display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header a {
+    color:  #7b3604;
+    text-decoration: none;
+    display: inline-block;
+}
+header a:hover{
+    color:  #000000;
+    transform: scale(1.06);
+    transition: .2s;
+
+     
+}
+header nav   {
+    list-style-type: none;
+}
+header nav  li {
+    display: inline-block;
+    padding: 0 40px;
+}
+.btn-contato button {
+ padding: 10px 40px;  
+ font-size: 18px; 
+ font-weight: 600;
+ background-color: #7b3604 ;
+ border: 0;
+ border-radius: 30px;
+ cursor: pointer;
+ transition: .2s;
+}
+.btn-contato button:hover{
+    box-shadow: 0px 0px 8px #000000;
+    transform: scale(1.04);
+}
+/* ESTILO DO TOPO DO SITE */
+section .topo-do-site{
+    padding: 40px 4%;
+
+}
+section.topo-do-site.flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    font-weight: 700;
+}
+.topo-do-site .txt-topo-site h1{
+    font-size: 38px;
+    line-height: 40px;
+    color:  #7b3604;
+    font-weight: 900;
+   
+}
+.topo-do-site .txt-topo-site p{
+    color: #7b3604;
+    margin: 40px 0;
+    font-weight: 500;
+    
+}
+.topo-do-site .img-topo-site img {
+   position: relative;
+   animation: flutuar 2s ease-in-out infinite alternate;
+   margin: 40px;
+   margin-top: 40px 4%;
+}
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top:30px;
+    }
+}
+/* ESTILO DAS ESPECIALIDADES */
+section .especialidades{
+    padding: 40px 4%;
+}
+section .especialidades{
+    gap: 60px;
+}
+.especialidades .especialidades-box{
+    padding: 40px;
+    color: #7b3604;
+     margin-top: 45px;
+
+}
+.especialidades .especialidades-box img {
+
+    border: 10px; 
+    box-shadow: 2px 19px 15px #7b3604;
+    padding: 40px;
+    border-radius: 1px 7px 13px;
+
+   
+    
+}
+
+.especialidades .especialidades-box:hover{
+  gap: 20px 0px;
+}
+.especialidades .especialidades-box p {
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.especialidades .especialidades-box h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 15px 0;
+}
+ .especialidades button{
+    padding: 10px 40px;  
+ font-size: 18px; 
+ font-weight: 600;
+ background-color: #7b3604 ;
+ border: 0;
+ border-radius: 30px;
+ cursor: pointer;
+ transition: .2s;
+
+}
+.especialidades button:hover{
+    box-shadow: 0px 0px 8px #000000;
+    transform: scale(1.05);
+    
+}
+      
+
+
+/* CARDAPIO */
+/* ESTILO DAS ESPECIALIDADES */
+section .especialidades-2{
+    padding: 40px 4%;
+
+
+}
+section .especialidades-2{
+    gap: 60px;
+}
+.especialidades-2 .especialidades-carp{
+    padding: 40px;
+    color: #7b3604;
+   
+    margin-top: 45px;
+
+}
+.especialidades-2 .especialidades-carp img {
+
+    border: 10px; 
+    box-shadow: 2px 19px 15px #7b3604;
+    padding: 40px;
+    border-radius: 1px 7px 13px;
+
+   
+    
+}
+
+.especialidades-2 .especialidades-carp:hover{
+  gap: 20px 0px;
+}
+.especialidades-2 .especialidades-carp p {
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    line-height: 25px;
+    gap: 8px 10px;
+}
+.especialidades-2 .especialidades-carp h1{
+    text-align: center;
+    font-size: 40px;
+    margin: 15px 0;
+    
+}
+.especialidades-2 .especialidades-carp  h3{
+text-align: center;
+justify-content: center;
+}
+.especialidades-2 .especialidades-carp  h2{
+    text-align: left;
+    line-height: 60px;
+}
+.especialidades-2 .especialidades-carp  li {
+    line-height: 60px;
+}
+/* CARDAPIO */
+section .Cardapio .txt-sobre li{
+  
+text-align: center;
+   
+    
+}
+/* ESTILO GALERIA */
+section.galeria{
+    padding: 98px 4%; 
+   box-shadow: 0 0 40px 10px #7b3604;
+}
+section .galeria .flex{
+    justify-content: space-around;
+}
+img-galer{
+    width: 360px;
+    height: 460px;
+    background-color: #7b3604;
+}
+
+/* ESTILO GALERIA */
+section.galeria{
+    padding: 98px 4%; 
+   box-shadow: 0 0 40px 10px #7b3604;
+}
+section.galeria .flex{
+   justify-content: space-around;
+}
+.img-galer{
+    width: 360px;
+    height: 460px;
+    background-size: cover;
+    background-position: 100% 0%;
+    transition: 5s;
+    position: relative;
+}
+.img-galer:hover{
+    background-position: 100% 100%;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #2a211bc6;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    opacity: 0;
+    transition: 3s;
+}
+.overlay:hover{
+    opacity: 1;
+}
+
+
+/* RESPONSIVO DO SITE */
+@media screen and (max-width: 1020px) {
+
+    /* CLASSES GERAIS  */
+    .interface>h2.titulo {
+        color: #823f0f;
+        font-size: 35px;
+        margin: 0 4%;
+        text-align: center;
+    }
+
+    .flex {
+        flex-direction: column;
+        margin: 11px;
+
+    }
+
+
+
+    /* cabeçalho */
+    .menu-desktop,
+    .btn-contato {
+        display: none;
+
+    }
+
+    /* TOPO DO SITE */
+
+
+    section .topo-do-site {
+        padding: 20px 8%;
+
+    }
+
+    .especialidades img {
+        max-width: 290px;
+
+    }
+
+    .topo-do-site .txt-topo-site h1 {
+        font-size: 28px;
+        margin: 0;
+        line-height: 30px;
+    }
+
+    .section.topo-do-site.flex {
+        align-items: center;
+        justify-content: center;
+        gap: 90px;
+        font-weight: 700;
+    }
+
+    .topo-do-site .txt-topo-site p {
+        display: none;
+    }
+
+    .img-galeria {
+        max-width: 100%;
+        gap: 60px;
+    }
+
+    .especialidades .especialidades-box {
+
+        margin-top: 0;
+
+    }
+
+    /* portifolio */
+
+    section.galeria {
+        padding: 90px 8%;
+        
+    }
+    .img-galer {
+        width: 100%;
+        max-width: 360px;
+        margin: 0;
+       
+    }
+    section.galeria .flex {
+        gap: 60px;
+    }
+    /*imagem da logo*/
+     .img-topo-site img {
+        margin: auto;
+     }
+    
+
+}
+
+
+
+
+
+
+

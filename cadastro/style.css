@@ -1,0 +1,67 @@
+body{
+    background-color: #feb808;
+  
+
+}
+button:hover , form .btn-enviar input:hover{
+    box-shadow: 0px 0px 8px #823f0f;
+    transform: scale(1.05);
+   
+    
+}
+/* ESTILO DO FORMULARIO */
+section.formulario{
+    padding: 80px 4%;
+}
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+    gap :10px;
+   
+}
+form input{
+    width: 100%;
+    background-color: #4141417c;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 18px;
+    
+}
+form input::placeholder{
+  color: #ffffff7e;
+}
+section.formulario h2{
+    font-size: 40px;
+    padding:30px 4% ;
+    font-family: 'Times New Roman', Times, serif;
+    color: #7b3604
+}
+section.formulario span{
+    font-size: 40px;
+   color:#7b360400;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+form .btn-enviar input{
+    width: 120px;
+    background-color: #7b3604;
+    color: #ffffff7e;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+  
+}
+h2{
+    text-align: center;
+}
+/* SECTION ILUSTRAÇÃO */
+section .ilustraçao .img{
+    align-items: right;
+}
