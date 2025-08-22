@@ -14,8 +14,6 @@ Bem-vindo ao repositório do **La Finestra**, um projeto que encanta com comida 
 - Apresentação das especialidades da casa: parmegiana, feijoada, estrogonofe de carne, além de um cardápio que varia semanalmente.
 - Seção de eventos para celebrações com comida caseira.
 - Informações de contato, incluindo telefone, e-mail, endereço (Perdizes, São Paulo), e horário de funcionamento.
-- Link para delivery e integração visual (imagens e WhatsApp).  
-:contentReference[oaicite:0]{index=0}
 
 ---
 
